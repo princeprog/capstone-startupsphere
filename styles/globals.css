@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+  }
+}
+
+@layer components {
+  .side-menu-font {
+    @apply text-xs font-light;
+  }
+  .btn-primary {
+    @apply relative rounded-xl p-2 text-xs shadow-sm ring-1 ring-inset bg-white ring-gray-300;
+  }
+  .btn-active {
+    @apply relative rounded-xl bg-gray-300 p-2 text-xs shadow-sm ring-1 ring-inset ring-gray-300;
+  }
+}
