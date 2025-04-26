@@ -22,8 +22,8 @@ export default function StartupMap() {
     longitude: 123.89811168536812,
     latitude: 10.296462810801557,
     zoom: 16.822704814280264,
-    pitch: 77.50180300523273,
-    bearing: -13.596730550512234,
+    pitch: 0,
+    bearing: 0,
   });
 
   const { dashboardSelection, setDashboardSelection, selectedLocation, setSelectedLocation } =
